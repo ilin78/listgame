@@ -1,3 +1,13 @@
+# Factory line manager
+[![Travis][build-badge]][build]
+ 
+
+Awesome factory line manager!
+
+[build-badge]: https://img.shields.io/travis/ilinoa/listgame/master.png?style=flat-square
+[build]: https://travis-ci.org/ilinoa/listgame
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

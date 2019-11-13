@@ -10,6 +10,6 @@ branches:
 
 deploy:
   provider: heroku
-  app: "listgames"
+  app: listgames 
   api_key:
-    secure: "5a7992e0-6005-45f8-b2be-62933c4aaaac"
+    secure: 52f620dd-ab84-4028-8632-ad2a1336d3a3

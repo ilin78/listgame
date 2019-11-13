@@ -5,19 +5,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <div>
+            <p>How create file gitignore: .gitignore,  *.txt</p>
+            <p>How see log: git log  </p>
+
+            <p>    Cancel operations: </p>
+            <p> git log --oneline (can you see id everyone) </p>
+            <p> git checkout 764570d (heir you may see what files was change [id]) after you input </p>
+          
+          </div>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

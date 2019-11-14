@@ -1,13 +1,16 @@
 import React,{Component} from 'react';
 import './App.css';
  
-class App extends Component {
-  render() {
-        return (
-          <h1>Hello World!</h1>
-        );
-      }
-    }
+class Apps extends Component {
  
 
-export default App;
+  
+  render() {
+    return(
+          <div>  
+            <h1>name game: {this.props.game} status: {this.props.status}%</h1>
+          </div>
+        );        
+      }
+    }
+export default Apps;

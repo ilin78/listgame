@@ -7,9 +7,3 @@ node_js:
 branches:
   only:
     - master
-
-deploy:
-  provider: heroku
-  app: listgames 
-  api_key:
-    secure: 52f620dd-ab84-4028-8632-ad2a1336d3a3

@@ -1,3 +1,36 @@
-h1 {
-  color: blue;
+body {
+  background-color: darkgrey;
+}
+
+.field {
+  display: flex;
+  padding: 10px;
+  width: 25%;
+}
+
+.box {
+  border: 0px;
+  background-color: aliceblue; 
+}
+
+.box:last-child{
+  margin-bottom: 0;
+}
+
+.btn.ligth{
+  background-color: darkturquoise;
+}
+
+.btn.ligth:hover{
+  background-color: cornflowerblue;
+  border-color: darkmagenta;
+}
+
+.btn.red{
+  background-color: brown;
+}
+
+.btn.red.hover{
+  background-color: darkgreen;
+  border-color: darkmagenta;
 }

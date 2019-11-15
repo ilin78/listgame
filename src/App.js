@@ -2,13 +2,18 @@ import React,{Component} from 'react';
 import './App.css';
  
 class Apps extends Component {
- 
+
+  test() {
+    alert('THIS TEST')
+  }
 
   
   render() {
     return(
-          <div>  
-            <h1>name game: {this.props.game} status: {this.props.status}%</h1>
+          <div className="box">  
+            <div className="text">name game: {this.props.game} status: {this.props.status}%</div>
+            <button onClick={this.test} className="btn light">добавить</button>
+            <button onClick={this.test} className="btn red">Удалить</button>
           </div>
         );        
       }

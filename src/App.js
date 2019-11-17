@@ -4,7 +4,7 @@ import './App.css';
 class Apps extends Component {
 
   test() {
-    alert('THIS TEST')
+    alert('Example')
   }
 
   
